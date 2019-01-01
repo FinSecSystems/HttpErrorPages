@@ -1,7 +1,7 @@
 {
     //  Output Filename Scheme - eg. HTTP500.html
-    "scheme": "HTTP%d.html",
+    "scheme": "http%d.html",
 
     // Footer content (HTML Allowed)
-    "footer": "Tech Contact <a href=\"mailto:info@example.org\">info@example.org</a>"
+    "footer": "Contact <a href=\"mailto:admin@liquibrium.com\">admin@liquibrium.com</a>"
 }
