@@ -36,7 +36,7 @@
         "http-error-pages": "./bin/generator.js"
     },
     "main": "./lib/main.js",
-    "author": "Andi Dittrich (https://andidittrich.com)",
+    "author": "Andi Dittrich (https://andidittrich.de)",
     "homepage": "https://github.com/HttpErrorPages/HttpErrorPages",
     "bugs": "https://github.com/HttpErrorPages/HttpErrorPages/issues",
     "repository": "HttpErrorPages/HttpErrorPages",
