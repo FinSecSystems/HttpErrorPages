@@ -1,14 +1,41 @@
 CHANGELOG
 ======================================================
 
-Version 2.X.X
+Branch 3.X.X
 ------------------------------------------------------
+
+### 3.1.0 ###
+
+* Added: exposed `express.js` response object within `filter()` callback
+
+
+### 3.0.0 ###
+
+* Refactored the whole codebase
+* Added: template support for `pagetitle` (automatically set if not defined)
+* Added: option to set the pagetitle directly via `payload.pagetitle` (koa+expressjs)
+* Added: filter function to dynamically manipulate the errordata object (koa+expressjs)
+* Added: support for additional variables/payloads
+* Added: support for placeholders to static page generator
+* Added: iso-639-1 `language` attribute (derived from page lang)
+* Added: error/exception object available via `error` (koa+expressjs)
+* Added: `onError` callback as debug error handler (not to be used in production)
+* Changed: moved `footer` content into `payload` object
+* Changed: all variables within the `ejs` template are only accessible via `vars` object
+
+Branch 2.X.X
+------------------------------------------------------
+
+### 2.0.1 ###
+* Bugfix: gulp4 compatibility
+
+### 2.0.0 ###
 * Added [koa](http://koajs.com/) support
 * Added support for multiple http frameworks
 * Changed: **express.js** error handler is encapsulated within the `express()` function
 * Changed: moved middleware example to `examples/`
 
-Version 1.X.X
+Branch 1.X.X
 ------------------------------------------------------
 
 ### 1.0.0 ###
