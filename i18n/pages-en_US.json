@@ -65,5 +65,11 @@
     "533": {
         "title": "Scheduled Maintenance",
         "message": "This site is currently down for maintenance.\nOur service team is working hard to bring it back online soon."                
+    },
+
+    "200": {
+        "title": "Error Pages are available",
+        "message": ""
     }
+
 }

@@ -6,8 +6,8 @@
     "pagetitle": "We've got some trouble | %code% - %title%",
 
     // Footer content (HTML Allowed)
-    "footer": "Tech Contact <a href=\"mailto:info@example.org\">info@example.org</a>",
+    "footer": "Contact <a href=\"mailto:admin@finsec.systems\">admin@finsec.systems</a>"
 
     // additional vars
-    "myvar" : "Hello World"
+    //"myvar" : "Hello World"
 }
